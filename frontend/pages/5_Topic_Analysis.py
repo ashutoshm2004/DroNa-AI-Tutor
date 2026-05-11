@@ -39,8 +39,7 @@ if topics:
         x=[t.get("importance_score", 0) * 100 for t in topics],
         y=[t.get("name", "") for t in topics],
         orientation="h",
-        marker_color=[t.get("importance_score", 0) * 100 for t in topics],
-        marker_colorscale="Greys",
+        marker=dict(color=[t.get("importance_score", 0) * 100 for t in topics], colorscale="Greys"),
         text=[f"{t.get('importance_score', 0) * 100:.0f}%" for t in topics],
         textposition="outside",
         textfont=dict(color="#888", size=12),
@@ -49,8 +48,16 @@ if topics:
         paper_bgcolor="#141414",
         plot_bgcolor="#1a1a1a",
         font=dict(color="#888", family="Inter"),
-        xaxis=dict(gridcolor="#222", tickfont=dict(color="#555"), title="Importance (%)", titlefont=dict(color="#555")),
-        yaxis=dict(gridcolor="#222", tickfont=dict(color="#ccc"), autorange="reversed"),
+        xaxis=dict(
+            gridcolor="#222",
+            tickfont=dict(color="#555"),
+            title=dict(text="Importance (%)", font=dict(color="#555")),
+        ),
+        yaxis=dict(
+            gridcolor="#222",
+            tickfont=dict(color="#ccc"),
+            autorange="reversed",
+        ),
         height=max(280, len(topics) * 46),
         margin=dict(l=180, r=80, t=30, b=40),
     )
