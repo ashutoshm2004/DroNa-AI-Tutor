@@ -1,4 +1,3 @@
-
 # 🎓 Droण
 
 <div align="center">
@@ -16,7 +15,15 @@
 </div>
 
 ---
+## 🚀 Live Demo
 
+🌐 **Frontend (App):**  
+https://study-companion-ai.streamlit.app
+
+⚙️ **Backend API:**  
+https://study-companion-tmgn.onrender.com
+
+---
 ## 🚀 Overview
 
 **Droण** is a Generative AI-powered educational platform that transforms static study material into an interactive learning ecosystem.
