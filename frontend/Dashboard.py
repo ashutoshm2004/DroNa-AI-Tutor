@@ -136,7 +136,7 @@ st.markdown(f"""
   <div style="flex:1;min-width:0">
     <p class="section-label">AI-Powered · Free · Local Embeddings</p>
     <div class="hero-text">
-      <h1>Master Any Subject<br>With AI Tutoring</h1>
+      <h1>Droण - Master Any Subject<br>With AI Tutoring</h1>
       <p>Upload your course materials and unlock seven AI-powered study tools — from conversational tutoring to exam simulation. Powered by Groq's Llama 3.3 70B, completely free.</p>
     </div>
     {"<span class='chip'>📖 " + doc_name + "</span>" if doc_id else "<span class='chip'>⬆ Upload a document from sidebar to begin</span>"}
