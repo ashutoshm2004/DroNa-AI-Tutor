@@ -1,5 +1,5 @@
 
-# 🎓 AI Study Companion v2
+# 🎓 Droण
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 ## 🚀 Overview
 
-**AI Study Companion v2** is a Generative AI-powered educational platform that transforms static study material into an interactive learning ecosystem.
+**Droण** is a Generative AI-powered educational platform that transforms static study material into an interactive learning ecosystem.
 
 Upload **PDF, DOCX, or TXT files** and instantly generate:
 

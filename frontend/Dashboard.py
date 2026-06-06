@@ -5,7 +5,7 @@ import streamlit as st
 from frontend.api_client import health, upload_document, list_documents, delete_document
 from frontend.styles import apply_styles, section_label
 
-st.set_page_config(page_title="Study Companion", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="Droण", page_icon="🎓", layout="wide")
 apply_styles()
 
 # ── Sidebar ────────────────────────────────────────────────
@@ -27,7 +27,7 @@ with st.sidebar:
 <div class="brand-content">
 
 <div class="brand-title">
-    Study Companion
+    Droण
 </div>
 
 <div class="brand-subtitle">
@@ -209,4 +209,4 @@ style="text-decoration:none;">
         )
 
 st.markdown("<br>", unsafe_allow_html=True)
-st.markdown('<p style="text-align:center;color:#333;font-size:.78rem">Study Companion v2 · Groq llama-3.3-70b-versatile · sentence-transformers · ChromaDB · FastAPI · Streamlit</p>', unsafe_allow_html=True)
+st.markdown('<p style="text-align:center;color:#333;font-size:.78rem">Droण · Groq llama-3.3-70b-versatile · sentence-transformers · ChromaDB · FastAPI · Streamlit</p>', unsafe_allow_html=True)
